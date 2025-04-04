@@ -65,7 +65,7 @@ when needed.")
     (package
      (name "guile-lsp-server")
      (version (git-version version revision commit))
-     (source (
+     (source
       (origin
        (method git-fetch)
        (uri (git-reference
@@ -74,7 +74,6 @@ when needed.")
        (sha256
         (base32
          "1br7dcxkjpjcsr5m5bv4myajw353hzyql3jqlnpqcnzkzwf6fl4x"))))
-             )
      (build-system gnu-build-system)
      (arguments
       (list
